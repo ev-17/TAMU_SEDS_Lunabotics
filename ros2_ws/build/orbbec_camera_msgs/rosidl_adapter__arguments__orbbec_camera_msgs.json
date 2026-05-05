@@ -1,0 +1,25 @@
+{
+  "package_name": "orbbec_camera_msgs",
+  "non_idl_tuples": [
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceInfo.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceStatus.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DepthFilterParam.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DepthFilterState.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DepthFiltersStatus.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Extrinsics.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Metadata.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/IMUInfo.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/RGBD.msg",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetBool.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetInt32.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetString.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetFilter.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetInt32.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetString.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetArrays.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetUserCalibParams.srv",
+    "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetUserCalibParams.srv"
+  ]
+}

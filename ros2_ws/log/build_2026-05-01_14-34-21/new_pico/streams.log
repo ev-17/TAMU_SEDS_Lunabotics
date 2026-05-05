@@ -1,0 +1,35 @@
+[1.583s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/new_pico': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/new_pico build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/install.log --single-version-externally-managed install_data
+[2.177s] running egg_info
+[2.187s] creating ../../build/new_pico/new_pico.egg-info
+[2.188s] writing ../../build/new_pico/new_pico.egg-info/PKG-INFO
+[2.189s] writing dependency_links to ../../build/new_pico/new_pico.egg-info/dependency_links.txt
+[2.189s] writing entry points to ../../build/new_pico/new_pico.egg-info/entry_points.txt
+[2.190s] writing requirements to ../../build/new_pico/new_pico.egg-info/requires.txt
+[2.190s] writing top-level names to ../../build/new_pico/new_pico.egg-info/top_level.txt
+[2.190s] writing manifest file '../../build/new_pico/new_pico.egg-info/SOURCES.txt'
+[2.208s] reading manifest file '../../build/new_pico/new_pico.egg-info/SOURCES.txt'
+[2.211s] writing manifest file '../../build/new_pico/new_pico.egg-info/SOURCES.txt'
+[2.211s] running build
+[2.211s] running build_py
+[2.212s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build
+[2.212s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib
+[2.212s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib/new_pico
+[2.212s] copying new_pico/picoDrive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib/new_pico
+[2.213s] copying new_pico/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib/new_pico
+[2.213s] running install
+[2.214s] running install_lib
+[2.216s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico
+[2.216s] copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib/new_pico/picoDrive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico
+[2.217s] copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/build/lib/new_pico/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico
+[2.231s] byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico/picoDrive.py to picoDrive.cpython-310.pyc
+[2.232s] byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico/__init__.py to __init__.cpython-310.pyc
+[2.232s] running install_data
+[2.233s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/share/ament_index
+[2.233s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/share/ament_index/resource_index
+[2.233s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/share/ament_index/resource_index/packages
+[2.233s] copying resource/new_pico -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/share/ament_index/resource_index/packages
+[2.234s] copying package.xml -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/share/new_pico
+[2.234s] running install_egg_info
+[2.250s] Copying ../../build/new_pico/new_pico.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/new_pico/lib/python3.10/site-packages/new_pico-0.0.0-py3.10.egg-info
+[2.252s] running install_scripts
+[2.306s] writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/new_pico/install.log'

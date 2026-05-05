@@ -1,0 +1,26 @@
+[0.064s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.712s] [ 50%] Built target client
+[0.721s] [100%] Built target server
+[0.735s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.912s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli
+[1.093s] -- Install configuration: ""
+[1.094s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.106s] -- Set non-toolchain portion of runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[1.106s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.119s] -- Set non-toolchain portion of runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[1.120s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.128s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.129s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.130s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.130s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.130s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.130s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.131s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.131s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.133s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.140s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.142s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.144s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.144s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.144s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.179s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli

@@ -1,0 +1,28 @@
+[0.093s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[1.970s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.972s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.972s] [100%] Built target talker
+[1.972s] [100%] Built target listener
+[2.098s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[2.314s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub
+[2.458s] -- Install configuration: ""
+[2.458s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.477s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[2.478s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.522s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[2.523s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.523s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.525s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.526s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.532s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.534s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.536s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.536s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.538s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.539s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.539s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.541s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.541s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.542s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.543s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.560s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub

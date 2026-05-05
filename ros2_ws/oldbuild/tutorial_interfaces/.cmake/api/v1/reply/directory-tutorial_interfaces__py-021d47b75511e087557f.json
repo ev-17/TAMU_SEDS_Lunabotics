@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interfaces__py",
+		"source" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/tutorial_interfaces/tutorial_interfaces__py"
+	}
+}

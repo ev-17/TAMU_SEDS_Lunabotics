@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tutorial_interfaces/msg/IMURaw.msg
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module msg {
+    struct IMURaw {
+      double accelx;
+
+      double accely;
+
+      double accelz;
+
+      double angvelx;
+
+      double angvely;
+
+      double angvelz;
+    };
+  };
+};

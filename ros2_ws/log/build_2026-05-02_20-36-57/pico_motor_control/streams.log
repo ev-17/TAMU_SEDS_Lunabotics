@@ -1,0 +1,37 @@
+[4.605s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_motor_control build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/install.log --single-version-externally-managed install_data
+[5.692s] running egg_info
+[5.694s] creating ../../build/pico_motor_control/pico_motor_control.egg-info
+[5.699s] writing ../../build/pico_motor_control/pico_motor_control.egg-info/PKG-INFO
+[5.701s] writing dependency_links to ../../build/pico_motor_control/pico_motor_control.egg-info/dependency_links.txt
+[5.702s] writing entry points to ../../build/pico_motor_control/pico_motor_control.egg-info/entry_points.txt
+[5.704s] writing requirements to ../../build/pico_motor_control/pico_motor_control.egg-info/requires.txt
+[5.705s] writing top-level names to ../../build/pico_motor_control/pico_motor_control.egg-info/top_level.txt
+[5.706s] writing manifest file '../../build/pico_motor_control/pico_motor_control.egg-info/SOURCES.txt'
+[5.711s] reading manifest file '../../build/pico_motor_control/pico_motor_control.egg-info/SOURCES.txt'
+[5.717s] writing manifest file '../../build/pico_motor_control/pico_motor_control.egg-info/SOURCES.txt'
+[5.719s] running build
+[5.719s] running build_py
+[5.720s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build
+[5.721s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib
+[5.722s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib/pico_motor_control
+[5.723s] copying pico_motor_control/motor_controller.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib/pico_motor_control
+[5.726s] copying pico_motor_control/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib/pico_motor_control
+[5.728s] running install
+[5.729s] running install_lib
+[5.732s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control
+[5.733s] copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib/pico_motor_control/motor_controller.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control
+[5.734s] copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build/lib/pico_motor_control/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control
+[5.737s] byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control/motor_controller.py to motor_controller.cpython-310.pyc
+[5.740s] byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control/__init__.py to __init__.cpython-310.pyc
+[5.741s] running install_data
+[5.742s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/ament_index
+[5.743s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/ament_index/resource_index
+[5.744s] creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/ament_index/resource_index/packages
+[5.745s] copying resource/pico_motor_control -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/ament_index/resource_index/packages
+[5.746s] copying package.xml -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/pico_motor_control
+[5.747s] running install_egg_info
+[5.756s] Copying ../../build/pico_motor_control/pico_motor_control.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control-0.0.0-py3.10.egg-info
+[5.761s] running install_scripts
+[5.836s] Installing motor_controller script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/pico_motor_control
+[5.839s] writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/install.log'
+[5.995s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control' returned '0': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_motor_control build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,471 @@
+[0.000000] (-) TimerEvent: {}
+[0.000806] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001574] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001834] (drive) JobQueued: {'identifier': 'drive', 'dependencies': OrderedDict()}
+[0.002195] (imu_reader) JobQueued: {'identifier': 'imu_reader', 'dependencies': OrderedDict()}
+[0.002279] (joy_controller_cpp) JobQueued: {'identifier': 'joy_controller_cpp', 'dependencies': OrderedDict()}
+[0.002416] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.002585] (pico_motor_control) JobQueued: {'identifier': 'pico_motor_control', 'dependencies': OrderedDict()}
+[0.002666] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.002763] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002854] (unitree_lidar_ros) JobQueued: {'identifier': 'unitree_lidar_ros', 'dependencies': OrderedDict()}
+[0.002944] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.003144] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.003225] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.013849] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.021328] (drive) JobStarted: {'identifier': 'drive'}
+[0.038121] (imu_reader) JobStarted: {'identifier': 'imu_reader'}
+[0.043832] (joy_controller_cpp) JobStarted: {'identifier': 'joy_controller_cpp'}
+[0.049895] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.060329] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.061618] (cpp_pubsub) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068351] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.069297] (cpp_srvcli) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099248] (-) TimerEvent: {}
+[0.199982] (-) TimerEvent: {}
+[0.300797] (-) TimerEvent: {}
+[0.401491] (-) TimerEvent: {}
+[0.502162] (-) TimerEvent: {}
+[0.602847] (-) TimerEvent: {}
+[0.678681] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'cmake'}
+[0.680520] (imu_reader) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.688606] (joy_controller_cpp) JobProgress: {'identifier': 'joy_controller_cpp', 'progress': 'cmake'}
+[0.689264] (joy_controller_cpp) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/joy_controller_cpp', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/joy_controller_cpp'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/joy_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/joy_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.702944] (-) TimerEvent: {}
+[0.704364] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.704852] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.705030] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705169] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.710316] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.712054] (cpp_pubsub) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.712389] (cpp_pubsub) StderrLine: {'line': b'  CMake.\n'}
+[0.712540] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.712668] (cpp_pubsub) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.712794] (cpp_pubsub) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.712913] (cpp_pubsub) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.713076] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.713190] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.713304] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.713527] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.713656] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.713773] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.713890] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.714005] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.714118] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.714691] (cpp_srvcli) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.714965] (cpp_srvcli) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.715098] (cpp_srvcli) StderrLine: {'line': b'  CMake.\n'}
+[0.715218] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[0.715548] (cpp_srvcli) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.715680] (cpp_srvcli) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.715796] (cpp_srvcli) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.715906] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[0.716016] (cpp_srvcli) StderrLine: {'line': b'\x1b[0m\n'}
+[0.725313] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.725481] (kiss_icp) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/ros', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.727241] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.727495] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.727645] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.735233] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.766573] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803124] (-) TimerEvent: {}
+[0.877353] (imu_reader) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.877895] (imu_reader) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.878064] (imu_reader) StderrLine: {'line': b'  CMake.\n'}
+[0.878199] (imu_reader) StderrLine: {'line': b'\n'}
+[0.878324] (imu_reader) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.878443] (imu_reader) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.878561] (imu_reader) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.878682] (imu_reader) StderrLine: {'line': b'\n'}
+[0.878796] (imu_reader) StderrLine: {'line': b'\x1b[0m\n'}
+[0.903282] (-) TimerEvent: {}
+[0.969800] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.971688] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.972109] (joy_controller_cpp) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.972260] (joy_controller_cpp) StderrLine: {'line': b'  CMake.\n'}
+[0.972389] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[0.972511] (joy_controller_cpp) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.972629] (joy_controller_cpp) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.972744] (joy_controller_cpp) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.972877] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[0.972992] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.003489] (-) TimerEvent: {}
+[1.005433] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.006227] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.007506] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.042638] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.043502] (imu_reader) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.069389] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.103257] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.103729] (-) TimerEvent: {}
+[1.104594] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.105502] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.131662] (joy_controller_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.135085] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.141369] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.166677] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203930] (-) TimerEvent: {}
+[1.302990] (imu_reader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.304011] (-) TimerEvent: {}
+[1.320815] (imu_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.321349] (joy_controller_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.343279] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.402083] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.404145] (-) TimerEvent: {}
+[1.436406] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.437092] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.438492] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.469100] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):\n'}
+[1.469679] (kiss_icp) StderrLine: {'line': b'  The OLD behavior for policy CMP0135 will be removed from a future version\n'}
+[1.469848] (kiss_icp) StderrLine: {'line': b'  of CMake.\n'}
+[1.469982] (kiss_icp) StderrLine: {'line': b'\n'}
+[1.470106] (kiss_icp) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.470229] (kiss_icp) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.470348] (kiss_icp) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.470459] (kiss_icp) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.470572] (kiss_icp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.470686] (kiss_icp) StderrLine: {'line': b'  /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)\n'}
+[1.470800] (kiss_icp) StderrLine: {'line': b'\n'}
+[1.470907] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.473034] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.504321] (-) TimerEvent: {}
+[1.565324] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.574846] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.590378] (imu_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.605266] (-) TimerEvent: {}
+[1.624854] (joy_controller_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.626455] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.633896] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.636654] (imu_reader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.637263] (imu_reader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.638185] (imu_reader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.680417] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.705451] (-) TimerEvent: {}
+[1.712728] (imu_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.744975] (drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drive', 'build', '--build-base', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build', 'install', '--record', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log', '--single-version-externally-managed'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lunabotics', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lunabotics', 'OLDPWD': '/home/lunabotics/TAMU_SEDS_Lunabotics', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '7455', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lunabotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lunabotics', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.755841] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.805606] (-) TimerEvent: {}
+[1.811786] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.871934] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.884445] (imu_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.886029] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.905794] (-) TimerEvent: {}
+[1.912316] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.915442] (imu_reader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.916162] (imu_reader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.917418] (imu_reader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.935951] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.936681] (imu_reader) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.940445] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.948939] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.954303] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.973296] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.002539] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.005943] (-) TimerEvent: {}
+[2.010351] (joy_controller_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.010815] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.011176] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.012211] (joy_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.033518] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.062167] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.106122] (-) TimerEvent: {}
+[2.139872] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.147436] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.180605] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.186704] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.206295] (-) TimerEvent: {}
+[2.307368] (-) TimerEvent: {}
+[2.384294] (joy_controller_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[2.390676] (imu_reader) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[2.407501] (-) TimerEvent: {}
+[2.433378] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.474083] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.507665] (-) TimerEvent: {}
+[2.589332] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[2.589700] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[2.607859] (-) TimerEvent: {}
+[2.663380] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.705612] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.707932] (-) TimerEvent: {}
+[2.727570] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.728085] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.760809] (imu_reader) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.808134] (-) TimerEvent: {}
+[2.897101] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.908289] (-) TimerEvent: {}
+[3.008992] (-) TimerEvent: {}
+[3.012726] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.023879] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.045422] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.077850] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.110838] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.111347] (-) TimerEvent: {}
+[3.115339] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.122035] (joy_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.134414] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.137247] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.182637] (imu_reader) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.186017] (imu_reader) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.189689] (imu_reader) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[3.200972] (imu_reader) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.205309] (imu_reader) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader\n'}
+[3.211537] (-) TimerEvent: {}
+[3.224174] (imu_reader) CommandEnded: {'returncode': 0}
+[3.225456] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'build'}
+[3.225557] (imu_reader) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '--build', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader', '--', '-j6', '-l6'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.226183] (drive) StdoutLine: {'line': b'running egg_info\n'}
+[3.226422] (drive) StdoutLine: {'line': b'creating ../../build/drive/drive.egg-info\n'}
+[3.226564] (drive) StdoutLine: {'line': b'writing ../../build/drive/drive.egg-info/PKG-INFO\n'}
+[3.226695] (drive) StdoutLine: {'line': b'writing dependency_links to ../../build/drive/drive.egg-info/dependency_links.txt\n'}
+[3.226823] (drive) StdoutLine: {'line': b'writing entry points to ../../build/drive/drive.egg-info/entry_points.txt\n'}
+[3.226946] (drive) StdoutLine: {'line': b'writing requirements to ../../build/drive/drive.egg-info/requires.txt\n'}
+[3.227069] (drive) StdoutLine: {'line': b'writing top-level names to ../../build/drive/drive.egg-info/top_level.txt\n'}
+[3.227189] (drive) StdoutLine: {'line': b"writing manifest file '../../build/drive/drive.egg-info/SOURCES.txt'\n"}
+[3.227427] (drive) StdoutLine: {'line': b"reading manifest file '../../build/drive/drive.egg-info/SOURCES.txt'\n"}
+[3.227570] (drive) StdoutLine: {'line': b"writing manifest file '../../build/drive/drive.egg-info/SOURCES.txt'\n"}
+[3.227693] (drive) StdoutLine: {'line': b'running build\n'}
+[3.227811] (drive) StdoutLine: {'line': b'running build_py\n'}
+[3.227926] (drive) StdoutLine: {'line': b'creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build\n'}
+[3.228042] (drive) StdoutLine: {'line': b'creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib\n'}
+[3.228159] (drive) StdoutLine: {'line': b'creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive\n'}
+[3.228275] (drive) StdoutLine: {'line': b'copying drive/tank_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive\n'}
+[3.228392] (drive) StdoutLine: {'line': b'copying drive/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive\n'}
+[3.228508] (drive) StdoutLine: {'line': b'running install\n'}
+[3.228622] (drive) StdoutLine: {'line': b'running install_lib\n'}
+[3.228737] (drive) StdoutLine: {'line': b'creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive\n'}
+[3.228857] (drive) StdoutLine: {'line': b'copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/tank_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive\n'}
+[3.228978] (drive) StdoutLine: {'line': b'copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive\n'}
+[3.229097] (drive) StdoutLine: {'line': b'byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/tank_drive.py to tank_drive.cpython-310.pyc\n'}
+[3.229215] (drive) StdoutLine: {'line': b'byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/__init__.py to __init__.cpython-310.pyc\n'}
+[3.229330] (drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.229443] (drive) StdoutLine: {'line': b'Copying ../../build/drive/drive.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive-0.0.0-py3.10.egg-info\n'}
+[3.229559] (drive) StdoutLine: {'line': b'running install_scripts\n'}
+[3.229672] (drive) StdoutLine: {'line': b'Installing tank_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive\n'}
+[3.229786] (drive) StdoutLine: {'line': b"writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log'\n"}
+[3.234736] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.243059] (drive) CommandEnded: {'returncode': 0}
+[3.244148] (joy_controller_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.275268] (drive) JobEnded: {'identifier': 'drive', 'rc': 0}
+[3.277156] (pico_motor_control) JobStarted: {'identifier': 'pico_motor_control'}
+[3.292045] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[3.311721] (-) TimerEvent: {}
+[3.318318] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[3.318775] (cpp_pubsub) StderrLine: {'line': b'  By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.318936] (cpp_pubsub) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.319097] (cpp_pubsub) StderrLine: {'line': b'  "tutorial_interfaces", but CMake did not find one.\n'}
+[3.319245] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.319603] (cpp_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[3.319742] (cpp_pubsub) StderrLine: {'line': b'  "tutorial_interfaces" with any of the following names:\n'}
+[3.319860] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.319972] (cpp_pubsub) StderrLine: {'line': b'    tutorial_interfaces.cps\n'}
+[3.320083] (cpp_pubsub) StderrLine: {'line': b'    tutorial_interfacesConfig.cmake\n'}
+[3.320191] (cpp_pubsub) StderrLine: {'line': b'    tutorial_interfaces-config.cmake\n'}
+[3.320298] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.320404] (cpp_pubsub) StderrLine: {'line': b'  Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH\n'}
+[3.320511] (cpp_pubsub) StderrLine: {'line': b'  or set "tutorial_interfaces_DIR" to a directory containing one of the above\n'}
+[3.320617] (cpp_pubsub) StderrLine: {'line': b'  files.  If "tutorial_interfaces" provides a separate development package or\n'}
+[3.320722] (cpp_pubsub) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[3.320828] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.320933] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[3.321042] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.414861] (-) TimerEvent: {}
+[3.505498] (joy_controller_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[3.515055] (-) TimerEvent: {}
+[3.580483] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.593535] (joy_controller_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[3.615296] (-) TimerEvent: {}
+[3.621379] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.682621] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli\n'}
+[3.710692] (joy_controller_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.715451] (-) TimerEvent: {}
+[3.733436] (joy_controller_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.791653] (kiss_icp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.808092] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.815601] (-) TimerEvent: {}
+[3.883731] (joy_controller_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.887408] (joy_controller_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.915791] (-) TimerEvent: {}
+[3.929204] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.960497] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[3.963659] (kiss_icp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.964402] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.964815] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.968317] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.969614] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.970253] (cpp_srvcli) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '--build', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli', '--', '-j6', '-l6'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.973860] (imu_reader) CommandEnded: {'returncode': 0}
+[3.975032] (imu_reader) JobProgress: {'identifier': 'imu_reader', 'progress': 'install'}
+[4.015922] (-) TimerEvent: {}
+[4.072885] (joy_controller_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.116091] (-) TimerEvent: {}
+[4.146382] (imu_reader) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '--install', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lunabotics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/7429,unix/lunabotics-desktop:/tmp/.ICE-unix/7429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ae00441_cc51_4e96_b240_81295055e701'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.178248] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[4.186694] (joy_controller_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.193454] (joy_controller_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (install):\n'}
+[4.193927] (joy_controller_cpp) StderrLine: {'line': b'  install TARGETS given target "joy_controller_node" which does not exist.\n'}
+[4.194093] (joy_controller_cpp) StderrLine: {'line': b'\n'}
+[4.194233] (joy_controller_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[4.216232] (-) TimerEvent: {}
+[4.275050] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[4.284761] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[4.316392] (-) TimerEvent: {}
+[4.351056] (imu_reader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.351673] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/package_run_dependencies/imu_reader\n'}
+[4.352283] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/parent_prefix_path/imu_reader\n'}
+[4.352828] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/ament_prefix_path.sh\n'}
+[4.353530] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/ament_prefix_path.dsv\n'}
+[4.354193] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/path.sh\n'}
+[4.354850] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/environment/path.dsv\n'}
+[4.355732] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.bash\n'}
+[4.356444] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.sh\n'}
+[4.357167] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.zsh\n'}
+[4.357881] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/local_setup.dsv\n'}
+[4.358620] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.dsv\n'}
+[4.359527] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/ament_index/resource_index/packages/imu_reader\n'}
+[4.360393] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/cmake/imu_readerConfig.cmake\n'}
+[4.360972] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/cmake/imu_readerConfig-version.cmake\n'}
+[4.361583] (imu_reader) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.xml\n'}
+[4.365381] (imu_reader) JobEnded: {'identifier': 'imu_reader', 'rc': 'SIGINT'}
+[4.413720] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.414293] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.414470] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.416476] (-) TimerEvent: {}
+[4.417162] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.420130] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.420341] (joy_controller_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.421698] (joy_controller_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.424960] (joy_controller_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.474747] (joy_controller_cpp) JobEnded: {'identifier': 'joy_controller_cpp', 'rc': 'SIGINT'}
+[4.516691] (-) TimerEvent: {}
+[4.617488] (-) TimerEvent: {}
+[4.718464] (-) TimerEvent: {}
+[4.819503] (-) TimerEvent: {}
+[4.920491] (-) TimerEvent: {}
+[5.021514] (-) TimerEvent: {}
+[5.093689] (pico_motor_control) JobEnded: {'identifier': 'pico_motor_control', 'rc': 'SIGINT'}
+[5.121692] (-) TimerEvent: {}
+[5.222729] (-) TimerEvent: {}
+[5.323466] (-) TimerEvent: {}
+[5.424208] (-) TimerEvent: {}
+[5.453013] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[5.453518] (kiss_icp) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[5.453696] (kiss_icp) StderrLine: {'line': b'  CMake.\n'}
+[5.453831] (kiss_icp) StderrLine: {'line': b'\n'}
+[5.453957] (kiss_icp) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[5.454080] (kiss_icp) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[5.454198] (kiss_icp) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[5.454314] (kiss_icp) StderrLine: {'line': b'\n'}
+[5.454424] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[5.465939] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.524370] (-) TimerEvent: {}
+[5.625087] (-) TimerEvent: {}
+[5.726194] (-) TimerEvent: {}
+[5.799188] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[5.826349] (-) TimerEvent: {}
+[5.927403] (-) TimerEvent: {}
+[6.028381] (-) TimerEvent: {}
+[6.039743] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.128575] (-) TimerEvent: {}
+[6.138013] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.150056] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.174390] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.209012] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.228923] (-) TimerEvent: {}
+[6.254068] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.329062] (-) TimerEvent: {}
+[6.372662] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.424965] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.429200] (-) TimerEvent: {}
+[6.527429] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.529330] (-) TimerEvent: {}
+[6.533482] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.629534] (-) TimerEvent: {}
+[6.730340] (-) TimerEvent: {}
+[6.743073] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[6.814971] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[6.830468] (-) TimerEvent: {}
+[6.928054] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.930592] (-) TimerEvent: {}
+[6.949374] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.030851] (-) TimerEvent: {}
+[7.124100] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.126756] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[7.131006] (-) TimerEvent: {}
+[7.232228] (-) TimerEvent: {}
+[7.237370] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[7.309894] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.332411] (-) TimerEvent: {}
+[7.361471] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.432598] (-) TimerEvent: {}
+[7.533366] (-) TimerEvent: {}
+[7.563488] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.633527] (-) TimerEvent: {}
+[7.734257] (-) TimerEvent: {}
+[7.755287] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (6.8s)\n'}
+[7.834449] (-) TimerEvent: {}
+[7.838204] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.934103] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp\n'}
+[7.934578] (-) TimerEvent: {}
+[7.970809] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 'SIGINT'}
+[8.034801] (-) TimerEvent: {}
+[8.135610] (-) TimerEvent: {}
+[8.236325] (-) TimerEvent: {}
+[8.337023] (-) TimerEvent: {}
+[8.437753] (-) TimerEvent: {}
+[8.538492] (-) TimerEvent: {}
+[8.639203] (-) TimerEvent: {}
+[8.740070] (-) TimerEvent: {}
+[8.840836] (-) TimerEvent: {}
+[8.941577] (-) TimerEvent: {}
+[9.042288] (-) TimerEvent: {}
+[9.143039] (-) TimerEvent: {}
+[9.243782] (-) TimerEvent: {}
+[9.344657] (-) TimerEvent: {}
+[9.445644] (-) TimerEvent: {}
+[9.546434] (-) TimerEvent: {}
+[9.647420] (-) TimerEvent: {}
+[9.748192] (-) TimerEvent: {}
+[9.848943] (-) TimerEvent: {}
+[9.949689] (-) TimerEvent: {}
+[10.050416] (-) TimerEvent: {}
+[10.151154] (-) TimerEvent: {}
+[10.251867] (-) TimerEvent: {}
+[10.352571] (-) TimerEvent: {}
+[10.453485] (-) TimerEvent: {}
+[10.554592] (-) TimerEvent: {}
+[10.655361] (-) TimerEvent: {}
+[10.756099] (-) TimerEvent: {}
+[10.856858] (-) TimerEvent: {}
+[10.957574] (-) TimerEvent: {}
+[11.058280] (-) TimerEvent: {}
+[11.158972] (-) TimerEvent: {}
+[11.259932] (-) TimerEvent: {}
+[11.360967] (-) TimerEvent: {}
+[11.462243] (-) TimerEvent: {}
+[11.563209] (-) TimerEvent: {}
+[11.664203] (-) TimerEvent: {}
+[11.765015] (-) TimerEvent: {}
+[11.866302] (-) TimerEvent: {}
+[11.967031] (-) TimerEvent: {}
+[12.067804] (-) TimerEvent: {}
+[12.168494] (-) TimerEvent: {}
+[12.269190] (-) TimerEvent: {}
+[12.369891] (-) TimerEvent: {}
+[12.470590] (-) TimerEvent: {}
+[12.571518] (-) TimerEvent: {}
+[12.594876] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[1m\x1b[32mLinking CXX executable server\x1b[0m\n'}
+[12.671700] (-) TimerEvent: {}
+[12.760993] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable client\x1b[0m\n'}
+[12.771879] (-) TimerEvent: {}
+[12.872587] (-) TimerEvent: {}
+[12.943781] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[12.972759] (-) TimerEvent: {}
+[13.073955] (-) TimerEvent: {}
+[13.079118] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[13.096536] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 'SIGINT'}
+[13.108545] (sensors) JobSkipped: {'identifier': 'sensors'}
+[13.108809] (tutorial_interfaces) JobSkipped: {'identifier': 'tutorial_interfaces'}
+[13.108865] (unitree_lidar_ros) JobSkipped: {'identifier': 'unitree_lidar_ros'}
+[13.108906] (unitree_lidar_ros2) JobSkipped: {'identifier': 'unitree_lidar_ros2'}
+[13.108952] (unitree_lidar_sdk) JobSkipped: {'identifier': 'unitree_lidar_sdk'}
+[13.109052] (-) EventReactorShutdown: {}

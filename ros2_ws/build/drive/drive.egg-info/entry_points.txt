@@ -1,0 +1,6 @@
+[console_scripts]
+auto_drive = drive.auto_drive:main
+auto_pub_test = drive.auto_pub_test:main
+pico_drive = drive.pico_drive:main
+tank_drive = drive.tank_drive:main
+

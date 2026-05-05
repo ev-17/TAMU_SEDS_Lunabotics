@@ -1,0 +1,3 @@
+[console_scripts]
+tank_drive = drive.tank_drive:main
+

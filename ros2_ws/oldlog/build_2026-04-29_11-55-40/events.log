@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001043] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001313] (-) JobUnselected: {'identifier': 'drive'}
+[0.001552] (-) JobUnselected: {'identifier': 'imu_reader'}
+[0.001641] (-) JobUnselected: {'identifier': 'joy_controller_cpp'}
+[0.001712] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.001779] (-) JobUnselected: {'identifier': 'sensors'}
+[0.001845] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001911] (-) JobUnselected: {'identifier': 'unitree_lidar_ros'}
+[0.001977] (-) JobUnselected: {'identifier': 'unitree_lidar_ros2'}
+[0.002042] (-) JobUnselected: {'identifier': 'unitree_lidar_sdk'}
+[0.002114] (pico_motor_control) JobQueued: {'identifier': 'pico_motor_control', 'dependencies': OrderedDict()}
+[0.002188] (pico_motor_control) JobStarted: {'identifier': 'pico_motor_control'}
+[0.099330] (-) TimerEvent: {}
+[0.199829] (-) TimerEvent: {}
+[0.300301] (-) TimerEvent: {}
+[0.400816] (-) TimerEvent: {}
+[0.501529] (-) TimerEvent: {}
+[0.602206] (-) TimerEvent: {}
+[0.702933] (-) TimerEvent: {}
+[0.803464] (-) TimerEvent: {}
+[0.903988] (-) TimerEvent: {}
+[1.004733] (-) TimerEvent: {}
+[1.105317] (-) TimerEvent: {}
+[1.205869] (-) TimerEvent: {}
+[1.288686] (pico_motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pico_motor_control', 'build', '--build-base', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/build', 'install', '--record', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lunabotics', 'SSH_CLIENT': '10.0.0.2 62266 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/lunabotics', 'OLDPWD': '/home/lunabotics', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lunabotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lunabotics/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.2 62266 10.0.0.3 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli'}, 'shell': False}
+[1.306089] (-) TimerEvent: {}
+[1.407135] (-) TimerEvent: {}
+[1.507827] (-) TimerEvent: {}
+[1.608380] (-) TimerEvent: {}
+[1.708917] (-) TimerEvent: {}
+[1.781210] (pico_motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.782517] (pico_motor_control) StdoutLine: {'line': b'writing ../../build/pico_motor_control/pico_motor_control.egg-info/PKG-INFO\n'}
+[1.783091] (pico_motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/pico_motor_control/pico_motor_control.egg-info/dependency_links.txt\n'}
+[1.783768] (pico_motor_control) StdoutLine: {'line': b'writing entry points to ../../build/pico_motor_control/pico_motor_control.egg-info/entry_points.txt\n'}
+[1.784205] (pico_motor_control) StdoutLine: {'line': b'writing requirements to ../../build/pico_motor_control/pico_motor_control.egg-info/requires.txt\n'}
+[1.784351] (pico_motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/pico_motor_control/pico_motor_control.egg-info/top_level.txt\n'}
+[1.788388] (pico_motor_control) StdoutLine: {'line': b"reading manifest file '../../build/pico_motor_control/pico_motor_control.egg-info/SOURCES.txt'\n"}
+[1.790093] (pico_motor_control) StdoutLine: {'line': b"writing manifest file '../../build/pico_motor_control/pico_motor_control.egg-info/SOURCES.txt'\n"}
+[1.790521] (pico_motor_control) StdoutLine: {'line': b'running build\n'}
+[1.790660] (pico_motor_control) StdoutLine: {'line': b'running build_py\n'}
+[1.790948] (pico_motor_control) StdoutLine: {'line': b'running install\n'}
+[1.791396] (pico_motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.793725] (pico_motor_control) StdoutLine: {'line': b'running install_data\n'}
+[1.793909] (pico_motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.799121] (pico_motor_control) StdoutLine: {'line': b"removing '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.799814] (pico_motor_control) StdoutLine: {'line': b'Copying ../../build/pico_motor_control/pico_motor_control.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/python3.10/site-packages/pico_motor_control-0.0.0-py3.10.egg-info\n'}
+[1.801711] (pico_motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.808977] (-) TimerEvent: {}
+[1.841200] (pico_motor_control) StdoutLine: {'line': b'Installing motor_controller script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/lib/pico_motor_control\n'}
+[1.841637] (pico_motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control/install.log'\n"}
+[1.906153] (pico_motor_control) CommandEnded: {'returncode': 0}
+[1.909148] (-) TimerEvent: {}
+[1.956676] (pico_motor_control) JobEnded: {'identifier': 'pico_motor_control', 'rc': 0}
+[1.960258] (-) EventReactorShutdown: {}

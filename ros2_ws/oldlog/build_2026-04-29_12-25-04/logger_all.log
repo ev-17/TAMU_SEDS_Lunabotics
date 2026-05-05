@@ -1,0 +1,671 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff89ea4760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff89ea4250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff89ea4250>>)
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.550s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive' with type 'ros.ament_python' and name 'drive'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_reader' with type 'ros.ament_cmake' and name 'imu_reader'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_controller_cpp) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_controller_cpp' with type 'ros.ament_cmake' and name 'joy_controller_cpp'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['python_setup_py']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python_setup_py'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/build) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/build) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/build) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/install) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/install) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/install) ignored
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/log) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/log) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/log) ignored
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/pico_motor_control) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pico_motor_control' with type 'ros.ament_python' and name 'pico_motor_control'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_cmake' and name 'sensors'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/docs) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros' with type 'ros.catkin' and name 'unitree_lidar_ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/build) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/build) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/install) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/install) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/log) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/log) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/build) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/build) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/install) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/install) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/log) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/log) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2' with type 'ros.ament_cmake' and name 'unitree_lidar_ros2'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/unilidar_sdk2/unitree_lidar_sdk) by extension 'python'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unilidar_sdk2/unitree_lidar_sdk' with type 'cmake' and name 'unitree_lidar_sdk'
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.711s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install
+[0.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.792s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.794s] DEBUG:colcon.colcon_core.verb:Building package 'drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive', 'symlink_install': False, 'test_result_base': None}
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_target' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.795s] DEBUG:colcon.colcon_core.verb:Building package 'imu_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader', 'symlink_install': False, 'test_result_base': None}
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_target' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'joy_controller_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.796s] DEBUG:colcon.colcon_core.verb:Building package 'joy_controller_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/joy_controller_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/joy_controller_cpp', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/joy_controller_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_first' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_force_configure' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'ament_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.797s] DEBUG:colcon.colcon_core.verb:Building package 'kiss_icp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/ros', 'symlink_install': False, 'test_result_base': None}
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_target' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'pico_motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.798s] DEBUG:colcon.colcon_core.verb:Building package 'pico_motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/pico_motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control', 'symlink_install': False, 'test_result_base': None}
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.799s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.800s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.801s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_lidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.801s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.802s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_lidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.803s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_lidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_sdk', 'merge_install': False, 'path': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.803s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.805s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.806s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub'
+[0.811s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[0.820s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_srvcli'
+[0.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive' with build type 'ament_python'
+[0.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'ament_prefix_path')
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.sh'
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader' with build type 'ament_cmake'
+[0.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/imu_reader'
+[0.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/joy_controller_cpp' with build type 'ament_cmake'
+[0.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/joy_controller_cpp'
+[0.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/ros' with build type 'ament_cmake'
+[0.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/kiss-icp/ros'
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[1.418s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'drive' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.418s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'drive' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.419s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive'
+[1.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader -- -j6 -l6
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/joy_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/joy_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/joy_controller_cpp
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp -- -j6 -l6
+[1.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli
+[1.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader -- -j6 -l6
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader
+[1.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_reader)
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/imu_reader
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader' for CMake module files
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader' for CMake config files
+[1.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_reader', 'cmake_prefix_path')
+[1.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.sh'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/bin'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/lib/pkgconfig/imu_reader.pc'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/bin'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.ps1'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.sh'
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.bash'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.zsh'
+[1.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/colcon-core/packages/imu_reader)
+[1.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_reader)
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader' for CMake module files
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader' for CMake config files
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_reader', 'cmake_prefix_path')
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/hook/cmake_prefix_path.sh'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/bin'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/lib/pkgconfig/imu_reader.pc'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/lib/python3.10/site-packages'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/bin'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.bash'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/imu_reader/package.zsh'
+[1.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/imu_reader/share/colcon-core/packages/imu_reader)
+[1.985s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control' with build type 'ament_python'
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('pico_motor_control', 'ament_prefix_path')
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/pico_motor_control/hook/ament_prefix_path.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/pico_motor_control/hook/ament_prefix_path.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control/share/pico_motor_control/hook/ament_prefix_path.sh'
+[1.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli' for CMake module files
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_srvcli
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli' for CMake config files
+[2.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/bin'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/bin'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[2.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[2.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[2.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli' for CMake config files
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/bin'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/bin'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[2.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[2.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/sensors' with build type 'ament_cmake'
+[2.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/sensors'
+[2.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/pico_motor_control'
+[2.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp -- -j6 -l6
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/sensors -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors
+[2.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log --single-version-externally-managed
+[2.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp' for CMake module files
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp' for CMake config files
+[2.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib'
+[2.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/bin'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.839s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/bin'
+[2.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp' for CMake module files
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp' for CMake config files
+[2.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib'
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/bin'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/bin'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.871s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[2.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/tutorial_interfaces'
+[2.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/tutorial_interfaces
+[2.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub
+[3.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub' for CMake module files
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub' for CMake config files
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/bin'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/bin'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[3.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[10.957s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.959s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[10.960s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.963s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/local_setup.ps1'
+[10.971s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/_local_setup_util_ps1.py'
+[10.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/setup.ps1'
+[10.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/local_setup.sh'
+[10.985s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/_local_setup_util_sh.py'
+[10.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/setup.sh'
+[10.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/local_setup.bash'
+[10.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/setup.bash'
+[10.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/local_setup.zsh'
+[11.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/setup.zsh'

@@ -1,0 +1,24 @@
+[1.344s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log --single-version-externally-managed
+[1.833s] running egg_info
+[1.834s] writing ../../build/drive/drive.egg-info/PKG-INFO
+[1.836s] writing dependency_links to ../../build/drive/drive.egg-info/dependency_links.txt
+[1.836s] writing entry points to ../../build/drive/drive.egg-info/entry_points.txt
+[1.837s] writing requirements to ../../build/drive/drive.egg-info/requires.txt
+[1.838s] writing top-level names to ../../build/drive/drive.egg-info/top_level.txt
+[1.839s] reading manifest file '../../build/drive/drive.egg-info/SOURCES.txt'
+[1.841s] writing manifest file '../../build/drive/drive.egg-info/SOURCES.txt'
+[1.841s] running build
+[1.842s] running build_py
+[1.842s] copying drive/pico_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+[1.843s] running install
+[1.843s] running install_lib
+[1.844s] copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/pico_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+[1.846s] byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/pico_drive.py to pico_drive.cpython-310.pyc
+[1.848s] running install_egg_info
+[1.852s] removing '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive-0.0.0-py3.10.egg-info' (and everything under it)
+[1.853s] Copying ../../build/drive/drive.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive-0.0.0-py3.10.egg-info
+[1.855s] running install_scripts
+[1.898s] Installing pico_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+[1.898s] Installing tank_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+[1.899s] writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log'
+[1.964s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/drive' returned '0': PYTHONPATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drive build --build-base /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build install --record /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log --single-version-externally-managed

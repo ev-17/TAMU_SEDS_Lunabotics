@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate-complete.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-build.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-configure.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-download.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-install.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-patch.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-test.rule"
+		},
+		{
+			"file" : "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sophus-populate"
+		],
+		"name" : "sophus-populate"
+	}
+}
