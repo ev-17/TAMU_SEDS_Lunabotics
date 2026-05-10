@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target orbbec_camera_node[0m
+[35m[1mConsolidate compiler generated dependencies of target frame_latency_node[0m
+[35m[1mConsolidate compiler generated dependencies of target start_benchmark_node[0m
+[  2%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[ 10%] Built target orbbec_camera_node
+[ 14%] Built target frame_latency_node
+[ 18%] Built target start_benchmark_node
+[ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target multi_save_rgbir_node[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[ 26%] Built target multi_save_rgbir_node
+[ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/frame_timestamp_csv_logger.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/src/utils.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_lidar_node.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libstart_benchmark.so[0m
+[ 40%] Built target start_benchmark
+[ 42%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libmulti_save_rgbir.so[0m
+[ 48%] Built target multi_save_rgbir
+[ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libframe_latency.so[0m
+[ 54%] Built target frame_latency
+[ 56%] [32m[1mLinking CXX shared library liborbbec_camera.so[0m
+[ 56%] Built target orbbec_camera
+[ 60%] [32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/firmware_update_tool.dir/tools/firmware_update_tool.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ip_config_tool.dir/tools/ip_config_tool.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/set_device_ip.dir/tools/ip_config_tool.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable firmware_update_tool[0m
+[ 70%] Built target firmware_update_tool
+[ 72%] [32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable list_depth_work_mode_node[0m
+[ 74%] Built target list_depth_work_mode_node
+[ 76%] [32mBuilding CXX object CMakeFiles/ob_benchmark_node.dir/tools/ob_benchmark.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable ip_config_tool[0m
+[ 78%] Built target ip_config_tool
+[ 80%] [32m[1mLinking CXX executable set_device_ip[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/435le_example_node.dir/examples/Gemini_435Le_example_node/camera_example_node.cpp.o[0m
+[ 82%] Built target set_device_ip
+[ 84%] [32mBuilding CXX object CMakeFiles/service_benchmark_node.dir/scripts/service_benchmark_node.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable list_camera_profile_mode_node[0m
+[ 88%] [32m[1mLinking CXX executable list_devices_node[0m
+[ 88%] Built target list_camera_profile_mode_node
+[ 90%] [32mBuilding CXX object CMakeFiles/image_sync_example_node.dir/examples/multi_camera_time_sync/image_sync_example_node.cpp.o[0m
+[ 90%] Built target list_devices_node
+[ 92%] [32m[1mLinking CXX executable ob_benchmark_node[0m
+[ 92%] Built target ob_benchmark_node
+[ 94%] [32m[1mLinking CXX executable topic_statistics_node[0m
+[ 94%] Built target topic_statistics_node
+[ 96%] [32m[1mLinking CXX executable 435le_example_node[0m
+[ 96%] Built target 435le_example_node
+[ 98%] [32m[1mLinking CXX executable image_sync_example_node[0m
+[ 98%] Built target image_sync_example_node
+[100%] [32m[1mLinking CXX executable service_benchmark_node[0m
+[100%] Built target service_benchmark_node

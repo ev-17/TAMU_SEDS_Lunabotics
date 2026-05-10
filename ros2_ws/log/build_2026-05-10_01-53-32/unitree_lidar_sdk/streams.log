@@ -1,0 +1,12 @@
+[0.112s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_sdk': /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_sdk -- -j6 -l6
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target example_lidar_udp[0m
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target example_lidar_serial[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target set_ip_address[0m
+[0.312s] [ 20%] Built target example_lidar_udp
+[0.312s] [ 40%] Built target example_lidar_serial
+[0.331s] [ 60%] Built target set_ip_address
+[0.336s] [35m[1mConsolidate compiler generated dependencies of target set_to_serial_mode[0m
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target set_to_udp_mode[0m
+[0.360s] [ 80%] Built target set_to_serial_mode
+[0.376s] [100%] Built target set_to_udp_mode
+[0.421s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_sdk' returned '0': /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_sdk -- -j6 -l6

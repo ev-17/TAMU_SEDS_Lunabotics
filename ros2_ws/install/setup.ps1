@@ -24,6 +24,8 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble/local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

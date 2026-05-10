@@ -1,1 +1,1 @@
-['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_SYSTEM_PROCESSOR=aarch64']
+None

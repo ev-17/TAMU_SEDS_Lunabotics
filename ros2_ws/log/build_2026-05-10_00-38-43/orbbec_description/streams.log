@@ -1,0 +1,137 @@
+[0.821s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description
+[1.153s] -- The C compiler identification is GNU 11.4.0
+[1.370s] -- The CXX compiler identification is GNU 11.4.0
+[1.398s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.722s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.723s] -- Detecting C compile features
+[1.724s] -- Detecting C compile features - done
+[1.737s] -- Detecting CXX compiler ABI info
+[1.974s] -- Detecting CXX compiler ABI info - done
+[2.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.054s] -- Detecting CXX compile features
+[2.055s] -- Detecting CXX compile features - done
+[2.064s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.535s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.203s] -- Configuring done
+[3.211s] -- Generating done
+[3.215s] -- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description
+[3.240s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description
+[3.242s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description -- -j6 -l6
+[3.459s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description -- -j6 -l6
+[3.645s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description
+[6.295s] -- Install configuration: ""
+[6.296s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/launch
+[6.296s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/launch/view_model.launch.py
+[6.296s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/launch/launch_utils.py
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_color_frame.STL
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/base_link.STL
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_depth_frame.STL
+[6.297s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra2_optical_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_color_optical_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra1_optical_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_botter_screw_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra2_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra1_frame.STL
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt
+[6.298s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl
+[6.299s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2
+[6.299s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/base_link.STL
+[6.299s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_depth_frame.STL
+[6.310s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_depth_optical_frame.STL
+[6.311s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_color_optical_frame.STL
+[6.311s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_infra1_optical_frame.STL
+[6.311s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_infra1_frame.STL
+[6.311s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_bottom_screw_frame.STL
+[6.311s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_colorl_frame.STL
+[6.313s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le
+[6.313s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/canera_IMU_ROS_frame.STL
+[6.314s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/camera_botton_screw_frame.STL
+[6.314s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/base_Link.STL
+[6.314s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/canera_left_IR_ROS_frame.STL
+[6.314s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/canera_RGB_ROS_frame.STL
+[6.314s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Le/canera_right_IR_ROS_frame.STL
+[6.315s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L
+[6.315s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_frame.STL
+[6.315s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/base_link.STL
+[6.315s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_depth_frame.STL
+[6.315s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra2_optical_frame.STL
+[6.326s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_optical_frame.STL
+[6.327s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra1_optical_frame.STL
+[6.327s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_IMU_frame.STL
+[6.328s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra2_frame.STL
+[6.329s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_screw_frame.STL
+[6.330s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra1_frame.STL
+[6.332s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/AstraPlus.stl
+[6.332s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336
+[6.333s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL
+[6.336s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_right_ir_frame.STL
+[6.337s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_right_ir_optical_frame.STL
+[6.337s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL
+[6.340s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL
+[6.340s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL
+[6.341s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_link.STL
+[6.343s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_left_ir_frame.STL
+[6.344s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_left_ir_optical_frame.STL
+[6.347s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL
+[6.349s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg
+[6.349s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_color_frame.STL
+[6.349s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/base_link.STL
+[6.350s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_depth_frame.STL
+[6.350s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_infra2_optical_frame.STL
+[6.352s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_color_optical_frame.STL
+[6.352s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_infra1_optical_frame.STL
+[6.352s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_IMU_frame.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_infra2_frame.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_infra1_frame.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335Lg/camera_bottom_screw_frame.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_color_frame.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/base_link.STL
+[6.353s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR1_optical_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR2_optical_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_depth_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR1_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_rgb_optical_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR2_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_bottom_screw_frame.STL
+[6.354s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_imu_frame.STL
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini335Le.urdf.xacro
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_336.urdf.xacro
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini2.urdf.xacro
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_335.urdf.xacro
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini335Lg.urdf.xacro
+[6.355s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini336L.urdf.xacro
+[6.356s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini2.urdf.xacro
+[6.360s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_astra2.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini335Le.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/femto_bolt.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_femto_bolt.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini_335_336.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini335Lg.urdf.xacro
+[6.361s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini2L.urdf.xacro
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini335L_336L.urdf.xacro
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini335L.urdf.xacro
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/astra2.urdf.xacro
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/gemini2L.urdf.xacro
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/rviz
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/rviz/urdf.rviz
+[6.362s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[6.363s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[6.364s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml
+[6.365s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_description

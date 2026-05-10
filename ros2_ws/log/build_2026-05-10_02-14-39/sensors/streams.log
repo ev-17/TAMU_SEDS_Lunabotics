@@ -1,0 +1,24 @@
+[0.731s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors -- -j6 -l6
+[0.933s] [ 50%] Built target imu_talker
+[0.950s] [100%] Built target imu_raw
+[0.970s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors -- -j6 -l6
+[0.983s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors
+[1.059s] -- Install configuration: ""
+[1.064s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_talker
+[1.069s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_raw
+[1.070s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors
+[1.071s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors
+[1.071s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.sh
+[1.072s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.dsv
+[1.072s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.sh
+[1.072s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.dsv
+[1.072s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.bash
+[1.073s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.sh
+[1.073s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.zsh
+[1.073s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.dsv
+[1.073s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.dsv
+[1.075s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/packages/sensors
+[1.075s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig.cmake
+[1.076s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake
+[1.076s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.xml
+[1.155s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_raw[0m
+[35m[1mConsolidate compiler generated dependencies of target imu_talker[0m
+[ 50%] Built target imu_raw
+[ 75%] [32mBuilding CXX object CMakeFiles/imu_talker.dir/src/imu_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_talker[0m
+[100%] Built target imu_talker
+-- Install configuration: ""
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_talker
+-- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_talker" to ""
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_raw
+-- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_raw" to ""
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.sh
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.dsv
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.sh
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.dsv
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.bash
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.sh
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.zsh
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.dsv
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.dsv
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/packages/sensors
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig.cmake
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake
+-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.xml

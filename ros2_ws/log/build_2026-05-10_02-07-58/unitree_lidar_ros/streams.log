@@ -1,0 +1,38 @@
+[0.112s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros': /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros
+[0.251s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.251s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.251s]   CMake.
+[0.252s] 
+[0.252s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.252s]   CMake that the project does not need compatibility with older versions.
+[0.252s] 
+[0.252s] [0m
+[0.371s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.594s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[3.344s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.361s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.965s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.982s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.007s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.592s] -- Found Qhull version 8.0.2
+[5.121s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.041s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[6.041s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.041s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.042s]   CMake did not find one.
+[6.042s] 
+[6.042s]   Could not find a package configuration file provided by "catkin" with any
+[6.042s]   of the following names:
+[6.042s] 
+[6.042s]     catkinConfig.cmake
+[6.042s]     catkin-config.cmake
+[6.042s] 
+[6.042s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.043s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.043s]   provides a separate development package or SDK, be sure it has been
+[6.043s]   installed.
+[6.043s] 
+[6.043s] [0m
+[6.043s] -- Configuring incomplete, errors occurred!
+[6.043s] See also "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros/CMakeFiles/CMakeOutput.log".
+[6.128s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros' returned '1': /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_ros/src/unitree_lidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros

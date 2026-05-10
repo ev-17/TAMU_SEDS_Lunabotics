@@ -1,0 +1,68 @@
+[0.136s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera -- -j6 -l6
+[0.489s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera_node[0m
+[0.490s] [35m[1mConsolidate compiler generated dependencies of target frame_latency_node[0m
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target start_benchmark_node[0m
+[0.496s] [  2%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[0.496s] [  4%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[0.501s] [  6%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[0.516s] [ 10%] Built target orbbec_camera_node
+[0.519s] [ 14%] Built target frame_latency_node
+[0.522s] [ 18%] Built target start_benchmark_node
+[0.528s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o[0m
+[0.843s] [35m[1mConsolidate compiler generated dependencies of target multi_save_rgbir_node[0m
+[0.857s] [ 22%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[0.871s] [ 26%] Built target multi_save_rgbir_node
+[0.877s] [ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o[0m
+[12.602s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/frame_timestamp_csv_logger.cpp.o[0m
+[16.154s] [ 32%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[25.664s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[53.506s] [ 36%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/src/utils.cpp.o[0m
+[71.703s] [ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_lidar_node.cpp.o[0m
+[77.229s] [ 40%] [32m[1mLinking CXX shared library libstart_benchmark.so[0m
+[78.555s] [ 40%] Built target start_benchmark
+[78.564s] [ 42%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o[0m
+[82.821s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[86.910s] [ 46%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[89.266s] [ 48%] [32m[1mLinking CXX shared library libmulti_save_rgbir.so[0m
+[90.103s] [ 48%] Built target multi_save_rgbir
+[90.111s] [ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[105.850s] [ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[106.320s] [ 54%] [32m[1mLinking CXX shared library libframe_latency.so[0m
+[107.727s] [ 54%] Built target frame_latency
+[161.445s] [ 56%] [32m[1mLinking CXX shared library liborbbec_camera.so[0m
+[162.547s] [ 56%] Built target orbbec_camera
+[162.589s] [ 60%] [32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o[0m
+[162.590s] [ 62%] [32mBuilding CXX object CMakeFiles/firmware_update_tool.dir/tools/firmware_update_tool.cpp.o[0m
+[162.590s] [ 62%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o[0m
+[162.590s] [ 64%] [32mBuilding CXX object CMakeFiles/ip_config_tool.dir/tools/ip_config_tool.cpp.o[0m
+[162.592s] [ 66%] [32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o[0m
+[162.597s] [ 68%] [32mBuilding CXX object CMakeFiles/set_device_ip.dir/tools/ip_config_tool.cpp.o[0m
+[183.826s] [ 70%] [32m[1mLinking CXX executable firmware_update_tool[0m
+[184.339s] [ 70%] Built target firmware_update_tool
+[184.397s] [ 72%] [32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o[0m
+[187.971s] [ 74%] [32m[1mLinking CXX executable list_depth_work_mode_node[0m
+[188.368s] [ 74%] Built target list_depth_work_mode_node
+[188.426s] [ 76%] [32mBuilding CXX object CMakeFiles/ob_benchmark_node.dir/tools/ob_benchmark.cpp.o[0m
+[188.434s] [ 78%] [32m[1mLinking CXX executable ip_config_tool[0m
+[188.995s] [ 78%] Built target ip_config_tool
+[189.025s] [ 80%] [32m[1mLinking CXX executable set_device_ip[0m
+[189.036s] [ 82%] [32mBuilding CXX object CMakeFiles/435le_example_node.dir/examples/Gemini_435Le_example_node/camera_example_node.cpp.o[0m
+[189.507s] [ 82%] Built target set_device_ip
+[189.542s] [ 84%] [32mBuilding CXX object CMakeFiles/service_benchmark_node.dir/scripts/service_benchmark_node.cpp.o[0m
+[191.052s] [ 86%] [32m[1mLinking CXX executable list_camera_profile_mode_node[0m
+[192.311s] [ 88%] [32m[1mLinking CXX executable list_devices_node[0m
+[193.531s] [ 88%] Built target list_camera_profile_mode_node
+[193.575s] [ 90%] [32mBuilding CXX object CMakeFiles/image_sync_example_node.dir/examples/multi_camera_time_sync/image_sync_example_node.cpp.o[0m
+[193.706s] [ 90%] Built target list_devices_node
+[219.292s] [ 92%] [32m[1mLinking CXX executable ob_benchmark_node[0m
+[219.691s] [ 92%] Built target ob_benchmark_node
+[221.232s] [ 94%] [32m[1mLinking CXX executable topic_statistics_node[0m
+[221.766s] [ 94%] Built target topic_statistics_node
+[225.934s] [ 96%] [32m[1mLinking CXX executable 435le_example_node[0m
+[226.419s] [ 96%] Built target 435le_example_node
+[235.238s] [ 98%] [32m[1mLinking CXX executable image_sync_example_node[0m
+[235.564s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[235.565s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[236.527s] [ 98%] Built target image_sync_example_node
+[243.909s] [100%] [32m[1mLinking CXX executable service_benchmark_node[0m
+[244.361s] [100%] Built target service_benchmark_node

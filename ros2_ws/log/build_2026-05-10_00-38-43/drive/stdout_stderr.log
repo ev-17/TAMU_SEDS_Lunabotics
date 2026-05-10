@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/drive/drive.egg-info
+writing ../../build/drive/drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/drive/drive.egg-info/dependency_links.txt
+writing entry points to ../../build/drive/drive.egg-info/entry_points.txt
+writing requirements to ../../build/drive/drive.egg-info/requires.txt
+writing top-level names to ../../build/drive/drive.egg-info/top_level.txt
+writing manifest file '../../build/drive/drive.egg-info/SOURCES.txt'
+reading manifest file '../../build/drive/drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/drive/drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/pico_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/auto_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/tank_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/camera.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/auto_pub_test.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/tank_drive_uart.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+copying drive/pico_drive_encoders.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive
+running install
+running install_lib
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/pico_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/auto_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/tank_drive.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/camera.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/auto_pub_test.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/tank_drive_uart.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/__init__.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+copying /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/build/lib/drive/pico_drive_encoders.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/pico_drive.py to pico_drive.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/auto_drive.py to auto_drive.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/tank_drive.py to tank_drive.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/camera.py to camera.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/auto_pub_test.py to auto_pub_test.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/tank_drive_uart.py to tank_drive_uart.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive/pico_drive_encoders.py to pico_drive_encoders.cpython-310.pyc
+running install_data
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/ament_index
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/ament_index/resource_index
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/ament_index/resource_index/packages
+copying resource/drive -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive
+creating /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive/launch
+copying launch/drive.launch.py -> /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/share/drive/launch
+running install_egg_info
+Copying ../../build/drive/drive.egg-info to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages/drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing auto_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing auto_pub_test script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing camera script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing pico_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing pico_drive_encoders script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing tank_drive script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+Installing tank_drive_uart script to /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/drive
+writing list of installed files to '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/drive/install.log'

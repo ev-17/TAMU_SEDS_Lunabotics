@@ -1,3 +1,0 @@
-[console_scripts]
-motor_control = pico_2nd_pck.motor_control_node:main
-

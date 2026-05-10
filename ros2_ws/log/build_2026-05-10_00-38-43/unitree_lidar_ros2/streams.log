@@ -1,0 +1,90 @@
+[0.103s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2
+[0.527s] -- The C compiler identification is GNU 11.4.0
+[0.713s] -- The CXX compiler identification is GNU 11.4.0
+[0.764s] -- Detecting C compiler ABI info
+[1.067s] -- Detecting C compiler ABI info - done
+[1.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.101s] -- Detecting C compile features
+[1.102s] -- Detecting C compile features - done
+[1.109s] -- Detecting CXX compiler ABI info
+[1.382s] -- Detecting CXX compiler ABI info - done
+[1.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.417s] -- Detecting CXX compile features
+[1.418s] -- Detecting CXX compile features - done
+[1.426s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.710s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.710s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[8.710s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.710s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.710s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.737s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.737s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.738s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.738s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.032s] -- Found Threads: TRUE  
+[16.250s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[16.305s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[16.607s] -- Checking for module 'eigen3'
+[16.676s] --   Found eigen3, version 3.4.0
+[16.803s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[16.804s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[17.003s] -- Checking for module 'flann'
+[17.097s] --   Found flann, version 1.9.1
+[17.354s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[17.355s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[20.973s] -- Checking for module 'libusb-1.0'
+[21.010s] --   Found libusb-1.0, version 1.0.25
+[21.097s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[21.103s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.250s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[21.785s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[21.809s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.830s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[22.445s] -- Found Qhull version 8.0.2
+[22.966s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[23.456s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[23.458s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[23.461s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[23.463s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[23.465s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[23.467s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[23.468s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[23.469s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[23.471s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[23.473s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[23.476s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[23.478s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[23.481s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[23.483s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[23.486s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[23.488s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[23.490s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[23.492s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[23.495s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[23.497s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[23.499s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[23.500s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[23.501s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[23.503s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[23.505s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[23.510s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[23.511s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[23.511s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[23.511s]   command to set the policy and suppress this warning.
+[23.511s] 
+[23.511s]   CMake variable PCL_ROOT is set to:
+[23.511s] 
+[23.512s]     /usr
+[23.512s] 
+[23.512s]   For compatibility, CMake is ignoring the variable.
+[23.512s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[23.512s] [0m
+[23.536s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[24.018s] -- Configuring done
+[24.189s] -- Generating done
+[24.229s] -- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/unitree_lidar_ros2

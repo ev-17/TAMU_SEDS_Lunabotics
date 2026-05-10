@@ -85,7 +85,7 @@ public:
     ImuPublisher()
     : Node("imu_publisher"), imu_()          // ← constructs ISM330DLC here
     {
-        publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu/data_raw", 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 10);
         timer_ = this->create_wall_timer(
             50ms,                            // ← 20 Hz (matches your usleep(50000))
             std::bind(&ImuPublisher::timer_callback, this));

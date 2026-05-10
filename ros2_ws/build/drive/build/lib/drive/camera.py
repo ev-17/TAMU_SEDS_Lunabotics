@@ -1,72 +1,80 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image, PointCloud2
 from cv_bridge import CvBridge
 import cv2
+import numpy as np
 
 
-CAMERA_TOPIC = 'camera/image_raw'
+# Topic Names
+RGB_TOPIC   = '/camera/color/image_raw'
+DEPTH_TOPIC = '/camera/depth/image_raw'
+IR_TOPIC    = '/camera/ir/image_raw'
+CLOUD_TOPIC = '/camera/depth/points'
 
-
-# ─── CAMERA SETTINGS ─────────────────────────────────────────────
-CAMERA_INDEX  = 0       # USB cam is usually 0, try 1 if not working
-FRAME_WIDTH   = 640
-FRAME_HEIGHT  = 480
-PUBLISH_RATE  = 30.0    # Hz
-# ─────────────────────────────────────────────────────────────────
-
-
-class CameraNode(Node):
+class CameraSubscriberNode(Node):
     def __init__(self):
-        super().__init__('camera_node')
+        super().__init__('camera_subscriber')
 
         self.bridge = CvBridge()
 
-        # publisher
-        self.pub = self.create_publisher(Image, CAMERA_TOPIC, 10)
+        # RGB subscriber
+        self.create_subscription(
+            Image, RGB_TOPIC, self.rgb_callback, 10)
 
-        # open USB camera
-        self.cap = cv2.VideoCapture(CAMERA_INDEX, cv2.CAP_V4L2)
+        # Depth subscriber
+        self.create_subscription(
+            Image, DEPTH_TOPIC, self.depth_callback, 10)
 
-        if not self.cap.isOpened():
-            self.get_logger().error(
-                f"Failed to open camera at index {CAMERA_INDEX}! "
-                "Try changing CAMERA_INDEX.")
-            return
+        # IR subscriber
+        self.create_subscription(
+            Image, IR_TOPIC, self.ir_callback, 10)
 
-        # set resolution
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,  FRAME_WIDTH)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
+        # Pointcloud subscriber
+        self.create_subscription(
+            PointCloud2, CLOUD_TOPIC, self.cloud_callback, 10)
 
-        self.get_logger().info(
-            f"Camera opened — publishing to '{CAMERA_TOPIC}' "
-            f"at {PUBLISH_RATE}Hz ({FRAME_WIDTH}x{FRAME_HEIGHT})")
+        self.get_logger().info("Camera subscriber node started")
 
-        self.create_timer(1.0 / PUBLISH_RATE, self.publish_frame)
+    def rgb_callback(self, msg: Image):
+        frame = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
 
-    def publish_frame(self):
-        ret, frame = self.cap.read()
+        # — do your processing here —
+        h, w = frame.shape[:2]
+        self.get_logger().debug(f"RGB  → {w}x{h}")
 
-        if not ret:
-            self.get_logger().warn("Failed to grab frame")
-            return
+    def depth_callback(self, msg: Image):
+        # depth values are in millimeters (16-bit)
+        frame = self.bridge.imgmsg_to_cv2(msg, '16UC1')
 
-        # convert OpenCV BGR image → ROS2 Image message
-        msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
-        msg.header.stamp    = self.get_clock().now().to_msg()
-        msg.header.frame_id = 'camera'
+        # example: read center pixel distance
+        h, w = frame.shape
+        cx, cy = w // 2, h // 2
+        dist_mm = frame[cy, cx]
+        dist_m  = dist_mm / 1000.0
 
-        self.pub.publish(msg)
+        self.get_logger().info(f"Depth → center: {dist_m:.2f} m")
 
-    def destroy_node(self):
-        self.cap.release()
-        self.get_logger().info("Camera released")
-        super().destroy_node()
+    def ir_callback(self, msg: Image):
+        frame = self.bridge.imgmsg_to_cv2(msg, 'mono16')
+
+        # convert to 8-bit for easier processing
+        frame_8bit = cv2.normalize(
+            frame, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+
+        h, w = frame_8bit.shape
+        self.get_logger().debug(f"IR   → {w}x{h}")
+
+    def cloud_callback(self, msg: PointCloud2):
+        # basic info — processing pointclouds needs pcl or open3d
+        self.get_logger().debug(
+            f"Cloud → {msg.width * msg.height} points  "
+            f"| frame: {msg.header.frame_id}")
 
 
 def main(args=None):
     rclpy.init(args=args)
-    node = CameraNode()
+    node = CameraSubscriberNode()
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:

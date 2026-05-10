@@ -1,0 +1,41 @@
+[0.827s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp -- -j6 -l6
+[0.986s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_metrics[0m
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_node[0m
+[1.016s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_core[0m
+[1.048s] [ 14%] Built target kiss_icp_node
+[1.055s] [ 28%] Built target kiss_icp_metrics
+[1.078s] [ 71%] Built target kiss_icp_core
+[1.116s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_pipeline[0m
+[1.164s] [ 85%] Built target kiss_icp_pipeline
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target odometry_component[0m
+[1.250s] [100%] Built target odometry_component
+[1.397s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp -- -j6 -l6
+[1.404s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp
+[1.594s] -- Install configuration: "Release"
+[1.594s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[1.594s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""
+[1.595s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/libodometry_component.so
+[1.595s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib/libodometry_component.so" to ""
+[1.595s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//launch
+[1.595s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//rviz
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//config
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[1.596s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[1.597s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[1.597s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[1.597s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[1.598s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[1.598s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[1.598s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[1.598s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[1.598s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[1.599s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[1.599s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[1.599s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[1.599s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[1.600s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[1.600s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/share/kiss_icp/package.xml
+[1.617s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_motor_control:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/pico_2nd_pck:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/kiss_icp

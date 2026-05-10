@@ -1,0 +1,363 @@
+[0.117s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera -- -j6 -l6
+[0.573s] [35m[1mConsolidate compiler generated dependencies of target frame_latency[0m
+[0.593s] [  8%] Built target start_benchmark_node
+[0.593s] [  8%] Built target frame_latency_node
+[0.597s] [35m[1mConsolidate compiler generated dependencies of target start_benchmark[0m
+[0.611s] [ 12%] Built target orbbec_camera_node
+[0.618s] [ 16%] Built target frame_latency
+[0.648s] [ 20%] Built target start_benchmark
+[0.672s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera[0m
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target multi_save_rgbir[0m
+[0.710s] [ 24%] Built target multi_save_rgbir_node
+[0.742s] [ 30%] Built target multi_save_rgbir
+[0.883s] [ 56%] Built target orbbec_camera
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[0.899s] [35m[1mConsolidate compiler generated dependencies of target list_depth_work_mode_node[0m
+[0.916s] [35m[1mConsolidate compiler generated dependencies of target list_camera_profile_mode_node[0m
+[0.920s] [35m[1mConsolidate compiler generated dependencies of target firmware_update_tool[0m
+[0.925s] [35m[1mConsolidate compiler generated dependencies of target ip_config_tool[0m
+[0.929s] [35m[1mConsolidate compiler generated dependencies of target set_device_ip[0m
+[0.951s] [ 60%] Built target list_devices_node
+[0.962s] [ 64%] Built target list_depth_work_mode_node
+[0.965s] [35m[1mConsolidate compiler generated dependencies of target topic_statistics_node[0m
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target ob_benchmark_node[0m
+[0.997s] [ 68%] Built target firmware_update_tool
+[0.998s] [ 72%] Built target topic_statistics_node
+[1.000s] [ 76%] Built target list_camera_profile_mode_node
+[1.003s] [ 80%] Built target set_device_ip
+[1.006s] [ 84%] Built target ip_config_tool
+[1.011s] [35m[1mConsolidate compiler generated dependencies of target 435le_example_node[0m
+[1.013s] [35m[1mConsolidate compiler generated dependencies of target service_benchmark_node[0m
+[1.015s] [35m[1mConsolidate compiler generated dependencies of target image_sync_example_node[0m
+[1.102s] [ 92%] Built target 435le_example_node
+[1.103s] [ 92%] Built target image_sync_example_node
+[1.106s] [ 96%] Built target ob_benchmark_node
+[1.110s] [100%] Built target service_benchmark_node
+[1.139s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --build /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera -- -j6 -l6
+[1.146s] Invoking command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera
+[1.220s] -- Install configuration: ""
+[1.220s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[1.226s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.227s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/common_benchmark_node.py
+[1.229s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node.py
+[1.230s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node
+[1.235s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.236s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/start_benchmark_node
+[1.239s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/start_benchmark_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.240s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/multi_save_rgbir_node
+[1.243s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/multi_save_rgbir_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.244s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[1.269s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.270s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libframe_latency.so
+[1.277s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libframe_latency.so" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.278s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libstart_benchmark.so
+[1.399s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libstart_benchmark.so" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.401s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libmulti_save_rgbir.so
+[1.438s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/libmulti_save_rgbir.so" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[1.438s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include
+[1.439s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera
+[1.439s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/fps_delay_status.hpp
+[1.440s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[1.441s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[1.442s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[1.443s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[1.443s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[1.445s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/frame_timestamp_csv_logger.h
+[1.446s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/fps_counter.hpp
+[1.446s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h
+[1.447s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_lidar_node.h
+[1.447s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[1.447s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+[1.447s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[1.448s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[1.448s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+[1.450s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+[1.450s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/magic_enum
+[1.451s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[1.452s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch
+[1.454s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini305_g.launch.py
+[1.455s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series_low_cpu.launch.py
+[1.457s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+[1.458s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini345_lg.launch.py
+[1.459s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+[1.460s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+[1.461s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/orbbec_multicamera.launch.py
+[1.461s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py
+[1.463s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+[1.465s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini210.launch.py
+[1.466s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_a.launch.py
+[1.467s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/utils_yaml.py
+[1.468s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/lidar.launch.py
+[1.469s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+[1.470s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+[1.471s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+[1.472s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+[1.473s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+[1.474s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_lidar.launch.py
+[1.475s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_al.launch.py
+[1.476s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+[1.477s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini435_le.launch.py
+[1.478s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/orbbec_camera.launch.py
+[1.479s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini345.launch.py
+[1.480s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini305.launch.py
+[1.481s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+[1.482s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+[1.483s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config
+[1.484s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini330_series.yaml
+[1.485s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_secondary_params.yaml
+[1.487s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/femto.yaml
+[1.488s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini2.yaml
+[1.488s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini330Lg_series.yaml
+[1.490s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini2L.yaml
+[1.491s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/femto_mega.yaml
+[1.492s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini305_dual_color.yaml
+[1.493s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/tools
+[1.494s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/tools/multisavergbir
+[1.495s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/tools/multisavergbir/multi_save_rgbir_params.json
+[1.496s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/tools/startbenchmark
+[1.496s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/tools/startbenchmark/start_benchmark_params.json
+[1.497s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/gemini2L_dual_ir.yaml
+[1.498s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+[1.499s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[1.499s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/femto_bolt.yaml
+[1.500s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter
+[1.500s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+[1.501s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.7.json
+[1.502s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v2.0.xml
+[1.506s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/astra2.yaml
+[1.507s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/common.yaml
+[1.509s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples
+[1.509s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool
+[1.510s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/gemini_synced_verify.launch.py
+[1.511s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multi_camera_synced_verify.launch.py
+[1.512s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync
+[1.513s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python
+[1.513s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script
+[1.514s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch-systemTimestamp.py
+[1.515s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch_g330.py
+[1.517s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch.py
+[1.518s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch_Gemini2VL.py
+[1.519s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/script/config_frameMatch-Astra2_new.py
+[1.520s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/Config.ini
+[1.521s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/SyncFramesMain.py
+[1.522s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/Python/README.md
+[1.522s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output
+[1.523s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900
+[1.524s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames
+[1.525s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0
+[1.525s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543494_f8_s1739874543548_e50_d16_.jpg
+[1.529s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543427_f6_s1739874543474_e5000_d16_.jpg
+[1.531s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543294_f2_s1739874543359_e50_d16_.jpg
+[1.535s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543227_f0_s1739874543327_e50_d16_.jpg
+[1.539s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543527_f9_s1739874543627_e5000_d16_.jpg
+[1.541s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543427_f6_s1739874543518_e50_d16_.jpg
+[1.544s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543227_f0_s1739874543250_e5000_d16_.jpg
+[1.546s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543561_f10_s1739874543628_e5000_d16_.jpg
+[1.548s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543461_f7_s1739874543520_e50_d16_.jpg
+[1.552s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543461_f7_s1739874543493_e5000_d16_.jpg
+[1.554s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543394_f5_s1739874543473_e5000_d16_.jpg
+[1.556s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543260_f1_s1739874543351_e50_d16_.jpg
+[1.559s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543394_f5_s1739874543506_e50_d16_.jpg
+[1.563s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543327_f3_s1739874543393_e5000_d16_.jpg
+[1.566s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543360_f4_s1739874543442_e50_d16_.jpg
+[1.570s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543527_f9_s1739874543603_e50_d16_.jpg
+[1.573s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543260_f1_s1739874543310_e5000_d16_.jpg
+[1.576s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543361_f4_s1739874543405_e5000_d16_.jpg
+[1.578s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543294_f2_s1739874543329_e5000_d16_.jpg
+[1.580s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543561_f10_s1739874543648_e50_d16_.jpg
+[1.583s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/color_SNCP1E5420006D_Index0_g1739874543327_f3_s1739874543441_e50_d16_.jpg
+[1.587s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1E5420006D_Index0/ir#left_SNCP1E5420006D_Index0_g1739874543494_f8_s1739874543528_e5000_d16_.jpg
+[1.589s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1
+[1.591s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543327_f3_s1739874543458_e50_d16_.jpg
+[1.595s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543427_f6_s1739874543684_e5000_d16_.jpg
+[1.597s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543460_f7_s1739874543685_e5000_d16_.jpg
+[1.600s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543427_f6_s1739874543485_e50_d16_.jpg
+[1.604s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543393_f5_s1739874543470_e50_d16_.jpg
+[1.608s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543560_f10_s1739874543618_e50_d16_.jpg
+[1.612s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543294_f2_s1739874543319_e5000_d16_.jpg
+[1.615s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543260_f1_s1739874543294_e5000_d16_.jpg
+[1.618s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543460_f7_s1739874543505_e50_d16_.jpg
+[1.623s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543327_f3_s1739874543460_e5000_d16_.jpg
+[1.625s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543360_f4_s1739874543460_e5000_d16_.jpg
+[1.628s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543394_f5_s1739874543661_e5000_d16_.jpg
+[1.632s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543494_f8_s1739874543687_e5000_d16_.jpg
+[1.635s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543494_f8_s1739874543540_e50_d16_.jpg
+[1.641s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543527_f10_s1739874543687_e5000_d16_.jpg
+[1.644s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543227_f0_s1739874543250_e5000_d16_.jpg
+[1.649s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543227_f0_s1739874543304_e50_d16_.jpg
+[1.654s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543360_f4_s1739874543468_e50_d16_.jpg
+[1.661s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543260_f1_s1739874543345_e50_d16_.jpg
+[1.665s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543293_f2_s1739874543446_e50_d16_.jpg
+[1.672s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/ir#left_SNCP1L44P00051_Index1_g1739874543560_f11_s1739874543687_e5000_d16_.jpg
+[1.677s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/TotalModeFrames/SNCP1L44P00051_Index1/color_SNCP1L44P00051_Index1_g1739874543527_f9_s1739874543616_e50_d16_.jpg
+[1.683s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/DevicesInfo.txt
+[1.686s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648
+[1.688s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames
+[1.689s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_ir_left_SNCP1E5420006D_Index0_1739874543260_[0].jpg
+[1.694s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_color_SNCP1E5420006D_Index0_1739874543360_[0].jpg
+[1.699s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_color_SNCP1E5420006D_Index0_1739874543227_[0].jpg
+[1.704s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_color_SNCP1L44P00051_Index1_1739874543293_[0].jpg
+[1.709s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_ir_left_SNCP1L44P00051_Index1_1739874543560_[0].jpg
+[1.712s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_ir_left_SNCP1E5420006D_Index0_1739874543294_[1].jpg
+[1.715s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_ir_left_SNCP1E5420006D_Index0_1739874543227_[0].jpg
+[1.718s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_ir_left_SNCP1L44P00051_Index1_1739874543260_[0].jpg
+[1.722s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_color_SNCP1E5420006D_Index0_1739874543494_[0].jpg
+[1.726s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_color_SNCP1E5420006D_Index0_1739874543394_[1].jpg
+[1.732s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_color_SNCP1L44P00051_Index1_1739874543260_[0].jpg
+[1.738s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_color_SNCP1L44P00051_Index1_1739874543460_[0].jpg
+[1.743s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_color_SNCP1E5420006D_Index0_1739874543561_[1].jpg
+[1.747s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_ir_left_SNCP1E5420006D_Index0_1739874543394_[1].jpg
+[1.751s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_color_SNCP1E5420006D_Index0_1739874543427_[0].jpg
+[1.755s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_ir_left_SNCP1E5420006D_Index0_1739874543461_[1].jpg
+[1.758s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_ir_left_SNCP1L44P00051_Index1_1739874543227_[0].jpg
+[1.760s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_ir_left_SNCP1L44P00051_Index1_1739874543527_[0].jpg
+[1.763s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_color_SNCP1L44P00051_Index1_1739874543427_[0].jpg
+[1.767s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_ir_left_SNCP1L44P00051_Index1_1739874543327_[0].jpg
+[1.772s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_ir_left_SNCP1L44P00051_Index1_1739874543394_[1].jpg
+[1.775s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_ir_left_SNCP1E5420006D_Index0_1739874543527_[0].jpg
+[1.777s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_color_SNCP1L44P00051_Index1_1739874543327_[0].jpg
+[1.782s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_ir_left_SNCP1E5420006D_Index0_1739874543494_[0].jpg
+[1.784s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_ir_left_SNCP1L44P00051_Index1_1739874543360_[0].jpg
+[1.789s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_ir_left_SNCP1L44P00051_Index1_1739874543494_[0].jpg
+[1.792s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_color_SNCP1E5420006D_Index0_1739874543527_[0].jpg
+[1.796s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_color_SNCP1L44P00051_Index1_1739874543360_[0].jpg
+[1.801s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/1_color_SNCP1L44P00051_Index1_1739874543494_[0].jpg
+[1.805s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_ir_left_SNCP1L44P00051_Index1_1739874543460_[0].jpg
+[1.808s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_color_SNCP1E5420006D_Index0_1739874543327_[0].jpg
+[1.812s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/3_color_SNCP1E5420006D_Index0_1739874543260_[0].jpg
+[1.816s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_ir_left_SNCP1E5420006D_Index0_1739874543427_[0].jpg
+[1.818s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/4_ir_left_SNCP1E5420006D_Index0_1739874543361_[1].jpg
+[1.820s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/10_color_SNCP1L44P00051_Index1_1739874543227_[0].jpg
+[1.824s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/2_color_SNCP1E5420006D_Index0_1739874543461_[1].jpg
+[1.828s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/5_ir_left_SNCP1E5420006D_Index0_1739874543327_[0].jpg
+[1.831s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/9_color_SNCP1L44P00051_Index1_1739874543393_[0].jpg
+[1.835s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/0_color_SNCP1L44P00051_Index1_1739874543527_[0].jpg
+[1.839s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_ir_left_SNCP1E5420006D_Index0_1739874543561_[1].jpg
+[1.842s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/7_ir_left_SNCP1L44P00051_Index1_1739874543427_[0].jpg
+[1.845s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_ir_left_SNCP1L44P00051_Index1_1739874543294_[1].jpg
+[1.847s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/6_color_SNCP1L44P00051_Index1_1739874543560_[0].jpg
+[1.851s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/matchFrames/8_color_SNCP1E5420006D_Index0_1739874543294_[1].jpg
+[1.855s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/results-2025-02-25_163648/frameMatchLog.txt
+[1.856s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/multicamera_sync/output/20250218102900/StreamProfileInfo.txt
+[1.858s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_synced_verification_tool/gemini_330_series_synced_verify.launch.py
+[1.859s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_time_sync
+[1.859s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/multi_camera_time_sync/image_sync_example_node.cpp
+[1.869s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/Gemini_435Le_example_node
+[1.869s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/Gemini_435Le_example_node/README.MD
+[1.869s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/Gemini_435Le_example_node/camera_example_node.cpp
+[1.869s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/README.MD
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/ob_benchmark_1.launch.py
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/ob_benchmark_0.launch.py
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/benchmark/gemini_330_series_benchmark.launch.py
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage
+[1.870s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage/multi_camera_lower_cpu_usage.launch.py
+[1.872s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/lower_cpu_usage/gemini_330_series_lower_cpu_usage.launch.py
+[1.872s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera
+[1.873s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/gemini_330_gmsl.launch.py
+[1.875s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/multi_gmsl_camera.launch.py
+[1.875s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/gmsl_camera/multi_gmsl_camera_synced.launch.py
+[1.876s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/net_camera
+[1.877s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera//examples/net_camera/multi_net_camera.launch.py
+[1.878s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include
+[1.879s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor
+[1.879s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[1.880s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[1.880s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp
+[1.880s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/TypeHelper.hpp
+[1.880s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[1.881s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[1.881s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[1.881s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[1.882s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[1.882s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[1.882s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[1.883s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[1.883s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+[1.884s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[1.884s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[1.884s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[1.885s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h
+[1.885s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[1.885s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[1.886s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[1.886s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[1.886s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Advanced.h
+[1.886s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[1.887s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[1.887s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[1.887s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Export.h
+[1.887s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[1.888s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[1.888s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/TypeHelper.h
+[1.888s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+[1.888s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[1.889s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+[1.890s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[1.890s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[1.891s] -- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/
+[1.891s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.2
+[1.891s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.2.8.6
+[2.660s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[2.660s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions
+[2.695s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/depthengine
+[2.695s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/depthengine/libdepthengine.so
+[2.696s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/depthengine/libdepthengine.so.2.0
+[2.706s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/firmwareupdater
+[2.707s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/firmwareupdater/libfirmwareupdater.so
+[2.720s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/filters
+[2.721s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/filters/libFilterProcessor.so
+[2.728s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/filters/libob_priv_filter.so
+[2.733s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/frameprocessor
+[2.734s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib//extensions/frameprocessor/libob_frame_processor.so
+[2.741s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libdepthengine.so
+[2.741s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libdepthengine.so.2.0
+[2.744s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libFilterProcessor.so
+[2.746s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libob_priv_filter.so
+[2.747s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libfirmwareupdater.so
+[2.749s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/extensions/libob_frame_processor.so
+[2.751s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/udev/99-obsensor-libusb.rules
+[2.753s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+[2.754s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.754s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+[2.755s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.755s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+[2.757s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.757s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/firmware_update_tool
+[2.759s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/firmware_update_tool" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.759s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node
+[2.764s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.764s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node
+[2.767s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/service_benchmark_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.768s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/ob_benchmark_node
+[2.769s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/ob_benchmark_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.770s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/435le_example_node
+[2.774s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/435le_example_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.774s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/ip_config_tool
+[2.775s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/ip_config_tool" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.776s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/set_device_ip
+[2.777s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/set_device_ip" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.777s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/image_sync_example_node
+[2.781s] -- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib/orbbec_camera/image_sync_example_node" to ":/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[2.781s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[2.783s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[2.785s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[2.786s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[2.787s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[2.789s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[2.790s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[2.791s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[2.793s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[2.794s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[2.794s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[2.795s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[2.796s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[2.798s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[2.799s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+[2.800s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.801s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[2.803s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.804s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[2.805s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[2.806s] -- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[2.824s] Invoked command in '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble /home/lunabotics/.local/bin/cmake --install /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/orbbec_camera
