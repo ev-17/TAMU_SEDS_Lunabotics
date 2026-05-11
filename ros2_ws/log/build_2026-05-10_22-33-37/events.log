@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.001072] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001708] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001802] (-) JobUnselected: {'identifier': 'drive'}
+[0.001903] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.001996] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.002166] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002240] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002393] (-) JobUnselected: {'identifier': 'unitree_lidar_ros'}
+[0.002692] (-) JobUnselected: {'identifier': 'unitree_lidar_ros2'}
+[0.002993] (-) JobUnselected: {'identifier': 'unitree_lidar_sdk'}
+[0.003136] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.003244] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.024267] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'cmake'}
+[0.025680] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'build'}
+[0.027258] (sensors) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '--build', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors', '--', '-j6', '-l6'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '10.0.0.4 64610 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src'), ('SSH_TTY', '/dev/pts/9'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lunabotics/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/navigation:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.4 64610 10.0.0.10 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/navigation:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble')]), 'shell': False}
+[0.098708] (-) TimerEvent: {}
+[0.126216] (sensors) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198892] (-) TimerEvent: {}
+[0.299541] (-) TimerEvent: {}
+[0.368466] (sensors) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399737] (-) TimerEvent: {}
+[0.452548] (sensors) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.458653] (sensors) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.474440] (sensors) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499901] (-) TimerEvent: {}
+[0.501086] (sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.534932] (sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600091] (-) TimerEvent: {}
+[0.619926] (sensors) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.624838] (sensors) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700278] (-) TimerEvent: {}
+[0.801372] (-) TimerEvent: {}
+[0.902080] (-) TimerEvent: {}
+[0.903102] (sensors) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002301] (-) TimerEvent: {}
+[1.045101] (sensors) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.102477] (-) TimerEvent: {}
+[1.203141] (-) TimerEvent: {}
+[1.288210] (sensors) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.303378] (-) TimerEvent: {}
+[1.320324] (sensors) StdoutLine: {'line': b'-- Generating done\n'}
+[1.334369] (sensors) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors\n'}
+[1.378914] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_talker\x1b[0m\n'}
+[1.379388] (sensors) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_raw\x1b[0m\n'}
+[1.403660] (-) TimerEvent: {}
+[1.410883] (sensors) StdoutLine: {'line': b'[ 50%] Built target imu_talker\n'}
+[1.417071] (sensors) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o\x1b[0m\n'}
+[1.503798] (-) TimerEvent: {}
+[1.604504] (-) TimerEvent: {}
+[1.705179] (-) TimerEvent: {}
+[1.805853] (-) TimerEvent: {}
+[1.906587] (-) TimerEvent: {}
+[2.007290] (-) TimerEvent: {}
+[2.108365] (-) TimerEvent: {}
+[2.209075] (-) TimerEvent: {}
+[2.309759] (-) TimerEvent: {}
+[2.410768] (-) TimerEvent: {}
+[2.511836] (-) TimerEvent: {}
+[2.612534] (-) TimerEvent: {}
+[2.713370] (-) TimerEvent: {}
+[2.814143] (-) TimerEvent: {}
+[2.914847] (-) TimerEvent: {}
+[3.015554] (-) TimerEvent: {}
+[3.116249] (-) TimerEvent: {}
+[3.216923] (-) TimerEvent: {}
+[3.317629] (-) TimerEvent: {}
+[3.418366] (-) TimerEvent: {}
+[3.519473] (-) TimerEvent: {}
+[3.620473] (-) TimerEvent: {}
+[3.721153] (-) TimerEvent: {}
+[3.821856] (-) TimerEvent: {}
+[3.922555] (-) TimerEvent: {}
+[4.023227] (-) TimerEvent: {}
+[4.123925] (-) TimerEvent: {}
+[4.224984] (-) TimerEvent: {}
+[4.325754] (-) TimerEvent: {}
+[4.426591] (-) TimerEvent: {}
+[4.527257] (-) TimerEvent: {}
+[4.627931] (-) TimerEvent: {}
+[4.728614] (-) TimerEvent: {}
+[4.829424] (-) TimerEvent: {}
+[4.930591] (-) TimerEvent: {}
+[5.031337] (-) TimerEvent: {}
+[5.132896] (-) TimerEvent: {}
+[5.233590] (-) TimerEvent: {}
+[5.334281] (-) TimerEvent: {}
+[5.434988] (-) TimerEvent: {}
+[5.535828] (-) TimerEvent: {}
+[5.636562] (-) TimerEvent: {}
+[5.737228] (-) TimerEvent: {}
+[5.837951] (-) TimerEvent: {}
+[5.938623] (-) TimerEvent: {}
+[6.039305] (-) TimerEvent: {}
+[6.140062] (-) TimerEvent: {}
+[6.240772] (-) TimerEvent: {}
+[6.341833] (-) TimerEvent: {}
+[6.442903] (-) TimerEvent: {}
+[6.543587] (-) TimerEvent: {}
+[6.644326] (-) TimerEvent: {}
+[6.745033] (-) TimerEvent: {}
+[6.845736] (-) TimerEvent: {}
+[6.946496] (-) TimerEvent: {}
+[7.047187] (-) TimerEvent: {}
+[7.147867] (-) TimerEvent: {}
+[7.248550] (-) TimerEvent: {}
+[7.349246] (-) TimerEvent: {}
+[7.450249] (-) TimerEvent: {}
+[7.550936] (-) TimerEvent: {}
+[7.651740] (-) TimerEvent: {}
+[7.752454] (-) TimerEvent: {}
+[7.853165] (-) TimerEvent: {}
+[7.953867] (-) TimerEvent: {}
+[8.054579] (-) TimerEvent: {}
+[8.155277] (-) TimerEvent: {}
+[8.256268] (-) TimerEvent: {}
+[8.357336] (-) TimerEvent: {}
+[8.458046] (-) TimerEvent: {}
+[8.558718] (-) TimerEvent: {}
+[8.659393] (-) TimerEvent: {}
+[8.760103] (-) TimerEvent: {}
+[8.860795] (-) TimerEvent: {}
+[8.961528] (-) TimerEvent: {}
+[9.062243] (-) TimerEvent: {}
+[9.162918] (-) TimerEvent: {}
+[9.263609] (-) TimerEvent: {}
+[9.364326] (-) TimerEvent: {}
+[9.465130] (-) TimerEvent: {}
+[9.566137] (-) TimerEvent: {}
+[9.667248] (-) TimerEvent: {}
+[9.768117] (-) TimerEvent: {}
+[9.868784] (-) TimerEvent: {}
+[9.970090] (-) TimerEvent: {}
+[10.071136] (-) TimerEvent: {}
+[10.171812] (-) TimerEvent: {}
+[10.272914] (-) TimerEvent: {}
+[10.374230] (-) TimerEvent: {}
+[10.474881] (-) TimerEvent: {}
+[10.575551] (-) TimerEvent: {}
+[10.676207] (-) TimerEvent: {}
+[10.776871] (-) TimerEvent: {}
+[10.877506] (-) TimerEvent: {}
+[10.978181] (-) TimerEvent: {}
+[11.078818] (-) TimerEvent: {}
+[11.179470] (-) TimerEvent: {}
+[11.280121] (-) TimerEvent: {}
+[11.380730] (-) TimerEvent: {}
+[11.481358] (-) TimerEvent: {}
+[11.582090] (-) TimerEvent: {}
+[11.682844] (-) TimerEvent: {}
+[11.783670] (-) TimerEvent: {}
+[11.884391] (-) TimerEvent: {}
+[11.985124] (-) TimerEvent: {}
+[12.085836] (-) TimerEvent: {}
+[12.186835] (-) TimerEvent: {}
+[12.287656] (-) TimerEvent: {}
+[12.388449] (-) TimerEvent: {}
+[12.489776] (-) TimerEvent: {}
+[12.590485] (-) TimerEvent: {}
+[12.691182] (-) TimerEvent: {}
+[12.792385] (-) TimerEvent: {}
+[12.893435] (-) TimerEvent: {}
+[12.994220] (-) TimerEvent: {}
+[13.032968] (sensors) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_raw\x1b[0m\n'}
+[13.094350] (-) TimerEvent: {}
+[13.195060] (-) TimerEvent: {}
+[13.295755] (-) TimerEvent: {}
+[13.396454] (-) TimerEvent: {}
+[13.459639] (sensors) StdoutLine: {'line': b'[100%] Built target imu_raw\n'}
+[13.484845] (sensors) CommandEnded: {'returncode': 0}
+[13.487680] (sensors) JobProgress: {'identifier': 'sensors', 'progress': 'install'}
+[13.496600] (-) TimerEvent: {}
+[13.573837] (sensors) Command: {'cmd': ['/home/lunabotics/.local/bin/cmake', '--install', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors'], 'cwd': '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('SSH_CLIENT', '10.0.0.4 64610 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs/lib:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src'), ('SSH_TTY', '/dev/pts/9'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lunabotics/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/navigation:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/build/sensors'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.4 64610 10.0.0.10 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner/lib/python3.10/site-packages:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_description:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/orbbec_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/kiss_icp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/astra_camera_msgs:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/bringup:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/sim:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing2:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/navigation:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/lidar_preproc:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/guidance:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/control:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/auger:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/gnc_interfaces:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/cameracpp:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/src/unilidar_sdk2/install/unitree_lidar_ros2:/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/drive:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/pathing:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/dump:/home/lunabotics/TAMU_SEDS_Lunabotics/lunabotics_gnc2026/install/central_planner:/opt/ros/humble')]), 'shell': False}
+[13.596774] (-) TimerEvent: {}
+[13.647896] (sensors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.649542] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_talker\n'}
+[13.650401] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_raw\n'}
+[13.654157] (sensors) StdoutLine: {'line': b'-- Set runtime path of "/home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/lib/sensors/imu_raw" to ""\n'}
+[13.654545] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors\n'}
+[13.656452] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors\n'}
+[13.656930] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.sh\n'}
+[13.657210] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/ament_prefix_path.dsv\n'}
+[13.657493] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.sh\n'}
+[13.657692] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/environment/path.dsv\n'}
+[13.657931] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.bash\n'}
+[13.658184] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.sh\n'}
+[13.658323] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.zsh\n'}
+[13.658450] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/local_setup.dsv\n'}
+[13.658711] (sensors) StdoutLine: {'line': b'-- Installing: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.dsv\n'}
+[13.658898] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/ament_index/resource_index/packages/sensors\n'}
+[13.659085] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig.cmake\n'}
+[13.659258] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake\n'}
+[13.659384] (sensors) StdoutLine: {'line': b'-- Up-to-date: /home/lunabotics/TAMU_SEDS_Lunabotics/ros2_ws/install/sensors/share/sensors/package.xml\n'}
+[13.673139] (sensors) CommandEnded: {'returncode': 0}
+[13.696937] (-) TimerEvent: {}
+[13.732180] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[13.734733] (-) EventReactorShutdown: {}

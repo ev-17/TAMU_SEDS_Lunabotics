@@ -39,7 +39,7 @@ class PicoController(Node):
         self.get_logger().info('Pico Controller Started')
 
     def connect_pico(self):
-        pico_port = '/dev/ttyACM0'
+        pico_port = '/dev/ttyACM1'
         try:
             self.serial = serial.Serial(pico_port, 115200, timeout=1)
             time.sleep(2)

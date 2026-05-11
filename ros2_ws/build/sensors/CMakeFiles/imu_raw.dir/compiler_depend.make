@@ -721,29 +721,29 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/float32_multi_array.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/float32_multi_array.hpp:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
 
@@ -787,6 +787,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
@@ -798,8 +800,6 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
 
@@ -906,6 +906,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
@@ -1219,6 +1221,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 
 /usr/include/locale.h:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
 /usr/include/c++/11/bits/stl_numeric.h:
@@ -1286,8 +1290,6 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
@@ -1439,6 +1441,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
 /usr/include/ctype.h:
 
 /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
@@ -1464,6 +1468,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/struct_stat.h:
 
@@ -1625,8 +1631,6 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 
 /usr/include/stdint.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp:
-
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -1734,6 +1738,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
@@ -1963,8 +1969,6 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 
 /opt/ros/humble/include/rmw/rmw/event.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp:
-
 /opt/ros/humble/include/rmw/rmw/rmw.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
@@ -1994,6 +1998,8 @@ CMakeFiles/imu_raw.dir/src/imu_raw_pub.cpp.o: /home/lunabotics/TAMU_SEDS_Lunabot
 /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
 
 /opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp:
 
 /usr/include/c++/11/typeindex:
 

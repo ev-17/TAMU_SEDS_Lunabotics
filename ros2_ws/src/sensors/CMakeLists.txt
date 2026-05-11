@@ -19,7 +19,7 @@ add_executable(imu_talker src/imu_publisher.cpp)
 add_executable(imu_raw src/imu_raw_pub.cpp)
 
 ament_target_dependencies(imu_talker rclcpp sensor_msgs)
-ament_target_dependencies(imu_raw rclcpp std_msgs )
+ament_target_dependencies(imu_raw rclcpp sensor_msgs )
 
 install(TARGETS
   imu_talker
